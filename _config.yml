@@ -1,0 +1,14 @@
+# Site settings
+title: Learning 'R' with Faye Gazave
+email: fayecoga@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Having an ancient undergraduate in applied mathematics and now having 
+  been exposed to machine learning for the past 8 years, I've launched
+  my career path towards data science. This is my place to share about it.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://fayecoga.github.io" # the base hostname & protocol for your site
+twitter_username: fayecoga
+github_username:  fayecoga
+
+# Build settings
+markdown: kramdown

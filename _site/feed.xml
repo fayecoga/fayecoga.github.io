@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learning &#39;R&#39; with Faye Gazave</title>
+    <description>Having an ancient undergraduate in applied mathematics and now having  been exposed to machine learning for the past 8 years, I&#39;ve launched my career path towards data science. This is my place to share about it.
+</description>
+    <link>http://fayecoga.github.io/</link>
+    <atom:link href="http://fayecoga.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 01 Feb 2015 15:15:45 -0500</pubDate>
+    <lastBuildDate>Sun, 01 Feb 2015 15:15:45 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Welcome to R with Faye!</title>
+        <description>&lt;p&gt;I first began learning ‘R’ in July / August (2014) time frame as a project for my business. Since, then I’ve made it a priority to learn ‘R’ in a more structured way, through various books and online courses.&lt;/p&gt;
+
+&lt;p&gt;Heare are a few of my top resources.&lt;/p&gt;
+
+&lt;h2 id=&quot;online-learning&quot;&gt;Online learning.&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage&quot;&gt;Data Science Specialization&lt;/a&gt; from Coursera / John Hopkins&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.datacamp.com/courses&quot;&gt;Data Science and R training&lt;/a&gt; subjects from &lt;a href=&quot;https://www.datacamp.com/courses&quot;&gt;Datacamp.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;R bloggers&lt;/p&gt;
+
+&lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;summaryFrame &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; dataFrame &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
+	select&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; var1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; var2&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; var3&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
+	group_by&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;var3&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
+	summarize&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;var1&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
+	&lt;span class=&quot;kp&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sun, 01 Feb 2015 09:13:07 -0500</pubDate>
+        <link>http://fayecoga.github.io/intro/2015/02/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://fayecoga.github.io/intro/2015/02/01/welcome-to-jekyll.html</guid>
+        
+        
+        <category>intro</category>
+        
+      </item>
+    
+  </channel>
+</rss>
