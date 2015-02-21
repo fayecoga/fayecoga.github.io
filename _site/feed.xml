@@ -6,8 +6,8 @@
 </description>
     <link>http://fayecoga.github.io/</link>
     <atom:link href="http://fayecoga.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 01 Feb 2015 20:45:49 -0500</pubDate>
-    <lastBuildDate>Sun, 01 Feb 2015 20:45:49 -0500</lastBuildDate>
+    <pubDate>Sat, 21 Feb 2015 18:43:07 -0500</pubDate>
+    <lastBuildDate>Sat, 21 Feb 2015 18:43:07 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -26,7 +26,7 @@
 
 &lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;summaryFrame &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; dataFrame &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-s&quot; data-lang=&quot;s&quot;&gt;summaryFrame &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; dataFrame &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
 	select&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; var1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; var2&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; var3&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
 	group_by&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;var3&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
 	summarize&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;var1&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;

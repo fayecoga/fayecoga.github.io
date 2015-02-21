@@ -22,7 +22,7 @@ R bloggers
 
 
 
-{% highlight r %}
+{% highlight s %}
 summaryFrame <- dataFrame %>%
 	select( var1, var2, var3) %>%
 	group_by(var3) %>%
