@@ -31,5 +31,5 @@ summaryFrame <- dataFrame %>%
 {% endhighlight %}
 
 
-[Coursera]:      https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage
+[Coursera]:   https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage
 [Datacamp]:   https://www.datacamp.com/courses
