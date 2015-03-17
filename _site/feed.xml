@@ -6,8 +6,8 @@
 </description>
     <link>http://fayecoga.github.io/</link>
     <atom:link href="http://fayecoga.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Mar 2015 21:55:35 -0400</pubDate>
-    <lastBuildDate>Mon, 16 Mar 2015 21:55:35 -0400</lastBuildDate>
+    <pubDate>Mon, 16 Mar 2015 22:49:55 -0400</pubDate>
+    <lastBuildDate>Mon, 16 Mar 2015 22:49:55 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -121,7 +121,7 @@ nistOnlyLibrary &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; myTbl &lt
         <title>Welcome to R with Faye!</title>
         <description>&lt;p&gt;I first began learning ‘R’ in July / August (2014) time frame as a project for my business. Since, then I’ve made it a priority to learn ‘R’ in a more structured way, through various books and online courses.&lt;/p&gt;
 
-&lt;p&gt;Heare are a few of my top resources.&lt;/p&gt;
+&lt;p&gt;Here are a few of my top resources.&lt;/p&gt;
 
 &lt;h2 id=&quot;online-learning&quot;&gt;Online learning.&lt;/h2&gt;
 
@@ -129,11 +129,35 @@ nistOnlyLibrary &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; myTbl &lt
 
 &lt;p&gt;&lt;a href=&quot;https://www.datacamp.com/courses&quot;&gt;Data Science and R training&lt;/a&gt; subjects from &lt;a href=&quot;https://www.datacamp.com/courses&quot;&gt;Datacamp.org&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;R bloggers&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.r-bloggers.com&quot;&gt;R bloggers&lt;/a&gt; a blog with many contributors from the R community.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://simplystatistics.org&quot;&gt;Simply Statistics&lt;/a&gt; three biostatistics professors (Jeff Leek, Roger Peng, and Rafa Irizarry)&lt;/p&gt;
 
 &lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-s&quot; data-lang=&quot;s&quot;&gt;summaryFrame &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; dataFrame &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
+&lt;ul&gt;
+  &lt;li&gt;Advanced R by Hadley Wickham&lt;/li&gt;
+  &lt;li&gt;The Art of R programming by Norman Matloff&lt;/li&gt;
+  &lt;li&gt;R Graphics Cookbook by Winston Chang &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;favorite-cran-libraries&quot;&gt;Favorite CRAN libraries&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;magrittr&lt;/li&gt;
+  &lt;li&gt;dplyr&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;kn&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;magrittr&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;kp&quot;&gt;suppressMessages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;dplyr&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+
+summaryFrame &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; dataFrame &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
 	select&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; var1&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; var2&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; var3&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
 	group_by&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;var3&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;
 	summarize&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;var1&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;

@@ -67,7 +67,7 @@
   <article class="post-content">
     <p>I first began learning ‘R’ in July / August (2014) time frame as a project for my business. Since, then I’ve made it a priority to learn ‘R’ in a more structured way, through various books and online courses.</p>
 
-<p>Heare are a few of my top resources.</p>
+<p>Here are a few of my top resources.</p>
 
 <h2 id="online-learning">Online learning.</h2>
 
@@ -75,11 +75,35 @@
 
 <p><a href="https://www.datacamp.com/courses">Data Science and R training</a> subjects from <a href="https://www.datacamp.com/courses">Datacamp.org</a></p>
 
-<p>R bloggers</p>
+<p><a href="http://www.r-bloggers.com">R bloggers</a> a blog with many contributors from the R community.</p>
+
+<p><a href="http://simplystatistics.org">Simply Statistics</a> three biostatistics professors (Jeff Leek, Roger Peng, and Rafa Irizarry)</p>
 
 <h2 id="books">Books</h2>
 
-<div class="highlight"><pre><code class="language-s" data-lang="s">summaryFrame <span class="o">&lt;-</span> dataFrame <span class="o">%&gt;%</span>
+<ul>
+  <li>Advanced R by Hadley Wickham</li>
+  <li>The Art of R programming by Norman Matloff</li>
+  <li>R Graphics Cookbook by Winston Chang </li>
+</ul>
+
+<h2 id="favorite-cran-libraries">Favorite CRAN libraries</h2>
+
+<ul>
+  <li>magrittr</li>
+  <li>dplyr</li>
+</ul>
+
+<hr />
+
+<blockquote>
+
+</blockquote>
+
+<div class="highlight"><pre><code class="language-r" data-lang="r"><span class="kn">library</span><span class="p">(</span>magrittr<span class="p">)</span>
+<span class="kp">suppressMessages</span><span class="p">(</span><span class="kn">library</span><span class="p">(</span>dplyr<span class="p">))</span>
+
+summaryFrame <span class="o">&lt;-</span> dataFrame <span class="o">%&gt;%</span>
 	select<span class="p">(</span> var1<span class="p">,</span> var2<span class="p">,</span> var3<span class="p">)</span> <span class="o">%&gt;%</span>
 	group_by<span class="p">(</span>var3<span class="p">)</span> <span class="o">%&gt;%</span>
 	summarize<span class="p">(</span>var1<span class="p">)</span> <span class="o">%&gt;%</span>
