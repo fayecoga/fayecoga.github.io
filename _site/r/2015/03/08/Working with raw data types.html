@@ -12,6 +12,9 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="canonical" href="http://fayecoga.github.io/r/2015/03/08/Working%20with%20raw%20data%20types.html">
+    <script type="text/javascript"
+   		src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 </head>
 
 
@@ -112,9 +115,7 @@ data types is a string representing the name of the substance and the other is a
 raw data type; aka opaque sequence of bytes.  </p>
 
 <p>This is not in a Tidy format.  What we want is to convert the SQL data such that
-every column has it’s column name as the substance name string and each row is an intensity vs waveshift value. The x axis waveshift values are:</p>
-
-<script type="math/tex; mode=display">\left 501 \ldots 1800\right cm^{-1}</script>
+every column has it’s column name as the substance name string and each row is an intensity vs waveshift value. The x axis waveshift values are: <script type="math/tex">\lbrack 501, \ldots 1800\rbrack cm^{-1}</script></p>
 
 <p>The dataframe to be generated will use our new friend the <strong>readBin</strong> function to create
 the columns of spectrum intensity values for each of the 1300 wave shifts.</p>

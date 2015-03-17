@@ -6,8 +6,8 @@
 </description>
     <link>http://fayecoga.github.io/</link>
     <atom:link href="http://fayecoga.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Mar 2015 21:48:32 -0400</pubDate>
-    <lastBuildDate>Mon, 16 Mar 2015 21:48:32 -0400</lastBuildDate>
+    <pubDate>Mon, 16 Mar 2015 21:55:35 -0400</pubDate>
+    <lastBuildDate>Mon, 16 Mar 2015 21:55:35 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -62,9 +62,7 @@ data types is a string representing the name of the substance and the other is a
 raw data type; aka opaque sequence of bytes.  &lt;/p&gt;
 
 &lt;p&gt;This is not in a Tidy format.  What we want is to convert the SQL data such that
-every column has it’s column name as the substance name string and each row is an intensity vs waveshift value. The x axis waveshift values are:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left 501 \ldots 1800\right cm^{-1}&lt;/script&gt;
+every column has it’s column name as the substance name string and each row is an intensity vs waveshift value. The x axis waveshift values are: &lt;script type=&quot;math/tex&quot;&gt;\lbrack 501, \ldots 1800\rbrack cm^{-1}&lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;The dataframe to be generated will use our new friend the &lt;strong&gt;readBin&lt;/strong&gt; function to create
 the columns of spectrum intensity values for each of the 1300 wave shifts.&lt;/p&gt;

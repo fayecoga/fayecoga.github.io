@@ -63,9 +63,7 @@ data types is a string representing the name of the substance and the other is a
 raw data type; aka opaque sequence of bytes.  
 
 This is not in a Tidy format.  What we want is to convert the SQL data such that
-every column has it's column name as the substance name string and each row is an intensity vs waveshift value. The x axis waveshift values are:
-
-$$\left 501 \ldots 1800\right cm^{-1}$$
+every column has it's column name as the substance name string and each row is an intensity vs waveshift value. The x axis waveshift values are: $$\lbrack 501, \ldots 1800\rbrack cm^{-1}$$
 
 
 The dataframe to be generated will use our new friend the **readBin** function to create
