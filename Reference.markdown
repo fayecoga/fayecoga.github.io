@@ -1,13 +1,10 @@
 ---
-layout: post
-title:  "Welcome to R with Faye!"
+layout: page
+title:  "R resources"
 date:   2015-02-01 14:13:07
 categories: Intro
 ---
-I first began learning 'R' in July / August (2014) time frame as a project for my business. 
-Since, then I've made it a priority to learn 'R' in a more structured way, through various books and online courses.
 
-Here are a few of my top resources.
 
 ## Blogroll##
 
@@ -15,7 +12,8 @@ Here are a few of my top resources.
 
 [Simply Statistics][SimpStats] three biostatistics professors (Jeff Leek, Roger Peng, and Rafa Irizarry)
 
-##Online learning##
+
+##Online learning.##
 
 [Data Science Specialization][Coursera] from Coursera / John Hopkins
 

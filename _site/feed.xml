@@ -6,8 +6,8 @@
 </description>
     <link>http://fayecoga.github.io/</link>
     <atom:link href="http://fayecoga.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Mar 2015 22:49:55 -0400</pubDate>
-    <lastBuildDate>Mon, 16 Mar 2015 22:49:55 -0400</lastBuildDate>
+    <pubDate>Wed, 18 Mar 2015 17:19:03 -0400</pubDate>
+    <lastBuildDate>Wed, 18 Mar 2015 17:19:03 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -119,19 +119,22 @@ nistOnlyLibrary &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; myTbl &lt
     
       <item>
         <title>Welcome to R with Faye!</title>
-        <description>&lt;p&gt;I first began learning ‘R’ in July / August (2014) time frame as a project for my business. Since, then I’ve made it a priority to learn ‘R’ in a more structured way, through various books and online courses.&lt;/p&gt;
+        <description>&lt;p&gt;I first began learning ‘R’ in July / August (2014) time frame as a project for my business. 
+Since, then I’ve made it a priority to learn ‘R’ in a more structured way, through various books and online courses.&lt;/p&gt;
 
 &lt;p&gt;Here are a few of my top resources.&lt;/p&gt;
 
-&lt;h2 id=&quot;online-learning&quot;&gt;Online learning.&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage&quot;&gt;Data Science Specialization&lt;/a&gt; from Coursera / John Hopkins&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.datacamp.com/courses&quot;&gt;Data Science and R training&lt;/a&gt; subjects from &lt;a href=&quot;https://www.datacamp.com/courses&quot;&gt;Datacamp.org&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;blogroll&quot;&gt;Blogroll&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.r-bloggers.com&quot;&gt;R bloggers&lt;/a&gt; a blog with many contributors from the R community.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://simplystatistics.org&quot;&gt;Simply Statistics&lt;/a&gt; three biostatistics professors (Jeff Leek, Roger Peng, and Rafa Irizarry)&lt;/p&gt;
+
+&lt;h2 id=&quot;online-learning&quot;&gt;Online learning&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage&quot;&gt;Data Science Specialization&lt;/a&gt; from Coursera / John Hopkins&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.datacamp.com/courses&quot;&gt;Data Science and R training&lt;/a&gt; subjects from &lt;a href=&quot;https://www.datacamp.com/courses&quot;&gt;Datacamp.org&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;books&quot;&gt;Books&lt;/h2&gt;
 

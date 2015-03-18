@@ -1,5 +1,5 @@
 # Site settings
-title: Learning 'R' with Faye Gazave
+title: Exploring 'R' with Faye Gazave
 email: fayecoga@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Having an ancient undergraduate in applied mathematics and now having 
@@ -11,4 +11,5 @@ twitter_username: fayecoga
 github_username:  fayecoga
 linkedin_username: faye-gazave
 # Build settings
+highlighter: pygments
 markdown: kramdown

@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 ---
 
+![It's ME]({{site.url}}/assets/HomeWithMom.jpg "Faye Gazave")
 
 Residence: Research Triangle Park, North Carolina
 
